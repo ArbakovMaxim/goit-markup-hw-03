@@ -18,8 +18,7 @@ h1,
 h2,
 h3,
 p,
-ul[class],
-li {
+ul[class] {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -29,6 +28,11 @@ li {
 }
 
 /*header*/
+
+.link.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo-web {
   color: var(--accent-color);
@@ -92,11 +96,6 @@ li {
 
 /*герой*/
 
-/* .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
- */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -104,10 +103,15 @@ li {
   outline: 2px solid blue;
 }
 
-.hero {
+.section {
+  padding: 94px 20px;
+}
+
+.section.hero {
   background-color: var(--color-fons);
   text-align: center;
-  margin-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -122,8 +126,8 @@ li {
 
 /*описание преимуществ*/
 
-.container.main {
-  margin-bottom: 94px;
+.section.main {
+  padding-bottom: 0px;
 }
 
 .section-title {
@@ -150,14 +154,6 @@ li {
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
-}
-
-.section-name.team {
-  padding-top: 94px;
-}
-
-.container.team {
-  padding-bottom: 94px;
 }
 
 .team-name {
@@ -266,7 +262,16 @@ li {
   font-style: normal;
 }
 
+.footer > .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /*portfolio*/
+
+.button.last {
+  margin-bottom: 50px;
+}
 
 .projects-name {
   color: var(--title-text-color);
