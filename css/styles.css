@@ -19,9 +19,9 @@ h2,
 h3,
 p,
 ul[class],
-ol[class],
 li {
-  margin: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .list {
@@ -92,6 +92,11 @@ li {
 
 /*герой*/
 
+/* .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+ */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -102,6 +107,7 @@ li {
 .hero {
   background-color: var(--color-fons);
   text-align: center;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -115,6 +121,10 @@ li {
 }
 
 /*описание преимуществ*/
+
+.container.main {
+  margin-bottom: 94px;
+}
 
 .section-title {
   font-weight: 700;
@@ -139,6 +149,15 @@ li {
   line-height: 1.67;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-name.team {
+  padding-top: 94px;
+}
+
+.container.team {
+  padding-bottom: 94px;
 }
 
 .team-name {
