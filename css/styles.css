@@ -13,6 +13,17 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+body,
+h1,
+h2,
+h3,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+
 .list {
   list-style: none;
 }
@@ -81,8 +92,16 @@ body {
 
 /*герой*/
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  outline: 2px solid blue;
+}
+
 .hero {
   background-color: var(--color-fons);
+  text-align: center;
 }
 
 .hero-title {
@@ -92,7 +111,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
+  margin-bottom: 30px;
 }
 
 /*описание преимуществ*/
@@ -146,14 +165,20 @@ body {
 .button {
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
+  display: inline-block;
+  min-width: 26px;
 
   cursor: pointer;
+  border-radius: 4px;
+  border: 0px;
 
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  text-align: center;
+  padding: 6px 22px;
 }
 
 .button:hover,
@@ -165,15 +190,19 @@ body {
 .hero-button {
   color: var(--color-white);
   background-color: var(--accent-color);
+  display: inline-block;
+  min-width: 136px;
 
   cursor: pointer;
+  border-radius: 4px;
+  border: 0px;
 
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
+  padding: 10px 32px;
 }
 
 /*footer*/
