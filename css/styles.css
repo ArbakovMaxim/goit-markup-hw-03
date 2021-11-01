@@ -34,6 +34,10 @@ ul[class] {
   outline: 2px solid blue;
 }
 
+.text-transporent {
+  color: transparent;
+}
+
 /*header*/
 
 .container.header {
@@ -45,6 +49,7 @@ ul[class] {
   margin-top: 24px;
   margin-bottom: 25px;
   margin-right: 93px;
+  padding-left: 15px;
 }
 
 .logo-web {
@@ -158,11 +163,27 @@ ul[class] {
   padding-bottom: 0px;
 }
 
+.list.main {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list.main :not(:last-child) {
+  margin-right: 30px;
+}
+
+.li-main {
+  width: 270px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .section-text {
@@ -182,6 +203,21 @@ ul[class] {
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.list-box {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+}
+
+.list-team {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .team-name {
