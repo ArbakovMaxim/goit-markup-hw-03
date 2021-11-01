@@ -241,6 +241,7 @@ ul[class] {
   letter-spacing: 0.03em;
 
   margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .section.team {
@@ -321,6 +322,10 @@ ul[class] {
   text-decoration: none;
 }
 
+.footer.li {
+  margin-top: 9px;
+}
+
 .logo-studio-footer {
   color: var(--color-white);
   font-family: Raleway, cursive;
@@ -337,6 +342,11 @@ ul[class] {
 
 .address {
   font-style: normal;
+  padding-left: 15px;
+}
+
+.link.nado {
+  padding-left: 15px;
 }
 
 .footer > .container {
