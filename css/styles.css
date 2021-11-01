@@ -31,7 +31,7 @@ ul[class] {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid blue;
+  /* outline: 2px solid blue; */
 }
 
 .text-transporent {
@@ -68,6 +68,10 @@ ul[class] {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 /*сайтовая навигация*/
@@ -304,6 +308,7 @@ ul[class] {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 
 .footer-link {
@@ -335,8 +340,11 @@ ul[class] {
 }
 
 .footer > .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 15px;
+}
+
+.list.footer {
+  padding-left: 0px;
 }
 
 /*portfolio*/
@@ -368,10 +376,9 @@ ul[class] {
 }
 
 .project {
-  width: 368px;
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
 
 .projects-name {
@@ -393,6 +400,9 @@ ul[class] {
 
 .project-text {
   padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .projects-link {
