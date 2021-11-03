@@ -26,6 +26,7 @@ h3,
 p,
 ul[class] {
   margin: 0px;
+  padding: 0px;
 }
 
 .list {
@@ -307,7 +308,7 @@ ul[class] {
 
 .footer {
   background-color: var(--color-fons);
-  padding: 94px 0;
+  padding: 60px 0;
 }
 
 .footer-addres {
@@ -330,7 +331,7 @@ ul[class] {
 }
 
 .footer-li {
-  margin-top: 9px;
+  padding-top: 9px;
 }
 
 .logo-studio-footer {
